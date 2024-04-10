@@ -1,0 +1,200 @@
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding-top: 0;
+        height: 50px;
+        text-align: center;
+    }
+
+    header ul {
+        justify-content: center;
+        width: 100%;
+        margin-top: 46px;
+        padding: 0;
+    }
+
+
+
+    .inscreva-se-btn {
+        display: block;
+    }
+
+    h2 spam {
+        font-size: 36px;
+    }
+
+
+    main {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 200px;
+        height: 900px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    form input {
+        height: 10px;
+    }
+
+    form [type="submit"] {
+        width: 100%;
+    }
+
+
+    ul {
+        text-align: center;
+    }
+
+    article {
+        position: absolute;
+        right: 56px;
+        width: 340px;
+        height: 320px;
+        margin-top: 440px;
+    }
+
+    article #img {
+        width: 500px;
+    }
+
+    .circle-1 {
+        display: none;
+    }
+
+    .card {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    header {
+        font-size: 20px;
+        height: 100px;
+        padding: 0 48px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    main {
+        height: 780px;
+        padding: 80px 48px;
+    }
+
+    aside {
+
+        margin-top: 60px;
+    }
+
+    aside p {
+        font-size: 22px;
+        width: 38%;
+    }
+
+    h2 spam {
+        font-size: 72px;
+    }
+
+    aside h2 {
+        font-size: 70px;
+    }
+
+    article {
+        margin-top: 160px;
+        margin-right: 80px;
+        width: 600px;
+        height: 520px;
+    }
+
+    .circle-1 {
+        top: 290px;
+        right: 180px;
+        height: 670px;
+        width: 580px;
+    }
+
+    .circle-maior {
+        right: 800px;
+        top: 800px;
+    }
+
+    .circle {
+        top: 400px;
+        right: 280px;
+    }
+
+    .circle-menor {
+        top: 890px;
+        right: 200px;
+    }
+
+    article #img {
+        width: 750px;
+        height: 100%;
+
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 82px;
+    }
+
+    p {
+        font-size: 26px;
+        line-height: 30px;
+        max-width: 850px;
+    }
+
+    input {
+        width: 76%;
+        height: 36px;
+        font-size: 20px;
+        border-radius: 30px;
+    }
+
+    form [type="submit"] {
+        height: 68px;
+        width: 40%;
+    }
+
+    .card {
+        background: rgb(213, 212, 212);
+        font-size: 20px;
+        width: 144px;
+        height: 170px;
+        padding: 22px 32px;
+    }
+
+    .card:hover {
+        background: white;
+        transition: 0.4s;
+    }
+
+    .card img {
+        width: 80px;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    footer spam {
+        margin-top: 50px;
+    }
+}
